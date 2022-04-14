@@ -1,0 +1,30 @@
+body { 
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url("/Exerc2/imagens/ibNSfC6.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: rgb(77, 43, 34);
+   
+}
+
+a {
+    color: rgb(8, 240, 8);
+}
+
+#Git{
+    color: rgb(26, 106, 254);
+
+}
+ul {
+    text-decoration: underline;
+}
+h3,h2{
+    text-decoration: solid;
+    text-decoration: underline;
+}
+
+h1{
+    text-transform: capitalize;
+    font-style: italic;
+}
