@@ -340,13 +340,13 @@ h1, h2, h3, h4, h5, h6 {
   padding: 14px 30px;
   border-radius: 3px;
   margin: 10px;
-  color: #fff;
-  background: #7cc576;
+  color: rgb(255, 255, 255);
+  background: rgb(170, 74, 74);
 }
 #hero .btn-get-started:hover {
   transition: 0.5s;
-  background: #fff;
-  color: #7cc576;
+  background: rgb(168, 12, 12);
+  color: #ffffff;
 }
 @media (min-width: 1024px) {
   #hero {
@@ -928,10 +928,11 @@ section {
   font-size: 20px;
 }
 .testimonials .testimonial-item .testimonial-img {
-  width: 100px;
+  width: 250px;
   border-radius: 50%;
   border: 6px solid rgba(255, 255, 255, 0.15);
   margin: 0 auto;
+  
 }
 .testimonials .testimonial-item h3 {
   font-size: 20px;
