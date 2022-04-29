@@ -11,7 +11,10 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #555555;
+  
+  
 }
+
 
 a {
   text-decoration: none;
@@ -26,6 +29,7 @@ a:hover {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat", sans-serif;
 }
+
 
 /*--------------------------------------------------------------
 # Back to top button
@@ -440,7 +444,7 @@ section {
   margin-left: 60px;
 }
 .services .image {
-  background-position: center center;
+  background-position:;
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 400px;
@@ -907,19 +911,23 @@ section {
   background: rgba(0, 0, 0, 0.1);
 }
 .testimonials .quote-icon {
-  text-align: center;
+  text-align: left;
   padding: 0;
   margin: 20px;
-  color:rgb(0, 0, 0);
+  max-width: 230px;
+  
+  
  
 
 
 
-
 }
-.testimonials .quote-icon a {
-  font-size: 24px;
-  padding: 18px;
+.testimonials h2 {
+ 
+  color:rgb(255, 255, 255);
+  text-decoration-line: underline;
+  text-align: center;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
 }
 .testimonials .testimonials-carousel, .testimonials .testimonials-slider {
@@ -928,10 +936,11 @@ section {
 .testimonials .testimonial-item {
   text-align: center;
   color: #fff;
+  
 }
 .testimonials .testimonial-item H3 {
   text-align: center;
-  color: rgb(215, 42, 42);
+  color: rgb(247, 247, 247);
 
 }
 .testimonials .testimonial-item p {
@@ -990,10 +999,12 @@ section {
   transition: all 0.4s ease-in-out;
   display: inline-block;
   padding: 15px 0;
+  align-items: center;
 }
 .clients img:hover {
   filter: none;
   transform: scale(1.2);
+ 
 }
 @media (max-width: 768px) {
   .clients img {
